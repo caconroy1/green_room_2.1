@@ -1,4 +1,6 @@
 GreenRoom2::Application.routes.draw do
+  resources :tweets
+
   resources :pins
 
   resources :instagram_images
