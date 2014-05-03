@@ -1,4 +1,6 @@
 GreenRoom2::Application.routes.draw do
+  resources :wordpress_blog_posts
+
   resources :facebook_statuses
 
   resources :tweets
