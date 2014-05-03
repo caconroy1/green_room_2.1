@@ -1,4 +1,6 @@
 GreenRoom2::Application.routes.draw do
+  resources :pins
+
   resources :instagram_images
 
   devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
