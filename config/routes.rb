@@ -1,4 +1,6 @@
 GreenRoom2::Application.routes.draw do
+  resources :facebook_statuses
+
   resources :tweets
 
   resources :pins
