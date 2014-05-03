@@ -1,4 +1,5 @@
 GreenRoom2::Application.routes.draw do
+  get "landings/index"
   resources :wordpress_blog_posts
 
   resources :facebook_statuses
